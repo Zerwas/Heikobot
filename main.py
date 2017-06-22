@@ -24,6 +24,7 @@ def on_chat_message(msg):
 
 	responses = [\
 	"Gute Idee, aber kann man das auch mit Bigrammen lösen? \n\n _Said under various locations and circumstances_", \
+	"Ich bin doch kein Fisch im Aquarium! \n\n While Groh's students are staring througth window."
 	"Na Algorithmen und Datenstrukturen! \n\n _When entering rooms_",
 	"Das ... Das kann ich Ihnen jetzt grade nicht beantworten. Kommen sie bitte nach der Vorlesung nochmal nach vorne. \n\n _When caught off guard_"]
 	if msg['text'][:6] == "/zitat":
